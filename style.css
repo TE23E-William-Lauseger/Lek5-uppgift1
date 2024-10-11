@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+div{
+    width: 80%;
+}
+#top{
+    border: 3px solid red;
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+#rubrik1{
+    background-color: aqua;
+    border: 2px solid black;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+h1{
+    text-align: center;
+}
+#mellan{
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#vänster-rubrik{
+    background-color: yellow;
+    border: 2px solid black;
+    width: 49%;
+    padding: 20px;
+}
+#höger-rubrik{
+    background-color: pink;
+    border: 2px solid black;
+    width: 49%;
+    padding: 20px;
+}
+#bottom-text{
+    border: 2px solid yellow;
+}
+p{
+    padding: 5px;
+}
